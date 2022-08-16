@@ -65,12 +65,10 @@ main {
 .package__info {
     border: 1px solid #0e4f1f;
     color: #0e4f1f;
-    /*font-size: 1.25rem;*/
+    font-size: 1.25rem;
     padding: 1rem;
     background: white;
-    /*font-family: 'AnonymousPro', sans-serif;*/
-    /*font-weight: 700;*/
-    font: 700 1.25rem 'AnonymousPro', sans-serif;
+    /*font: 700 1.25rem 'AnonymousPro', sans-serif;*/
 }
 
 .clearfix {
