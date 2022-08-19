@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     margin: 0;
 }
 
@@ -130,12 +134,12 @@ main {
         display: inline-block;
         margin: 0 1rem;
     }
-
 }
 
 .main-footer {
     background: black;
     padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -213,6 +217,13 @@ main {
 
 .button:focus {
     outline: none;
+}
+
+.button[disabled] {
+    cursor: not-allowed;
+    border-color: #a1a1a1;
+    background: #ccc;
+    color: #a1a1a1;
 }
 
 .open {
