@@ -44,6 +44,10 @@ main {
     border-color: #ff5454;
 }
 
+.package:hover {
+    animation: package-move 1s linear forwards;
+}
+
 .package__title {
     color: black;
 }
@@ -128,5 +132,15 @@ main {
     #free:hover,
     #free:active {
         border-right-color: #ff5454;
+    }
+}
+
+@keyframes package-move {
+    from {
+       transform: translateY(0rem);
+    }
+
+    to {
+        transform: translateY(-1rem);
     }
 }
